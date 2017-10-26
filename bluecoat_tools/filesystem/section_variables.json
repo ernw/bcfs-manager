@@ -1,0 +1,273 @@
+[
+ {
+  "name": "product",
+  "id": 1,
+  "variables": [
+   {
+    "name": "type",
+    "id": 0
+   },
+   {
+    "name": "class",
+    "id": 1
+   },
+   {
+    "name": "subclass",
+    "id": 2
+   },
+   {
+    "name": "revision",
+    "id": 3
+   },
+   {
+    "name": "category",
+    "id": 4
+   },
+   {
+    "name": "release_string",
+    "id": 5
+   }
+  ]
+ },
+ {
+  "name": "operating system",
+  "id": 2,
+  "variables": [
+   {
+    "name": "os_name",
+    "id": 0
+   },
+   {
+    "name": "os_type",
+    "id": 1
+   },
+   {
+    "name": "os_system_image_type",
+    "id": 2
+   }
+  ]
+ },
+ {
+  "name": "operating system version",
+  "id": 3,
+  "variables": [
+   {
+    "name": "component_1_of_8",
+    "id": 0
+   },
+   {
+    "name": "component_2_of_8",
+    "id": 1
+   },
+   {
+    "name": "component_3_of_8",
+    "id": 2
+   },
+   {
+    "name": "component_4_of_8",
+    "id": 3
+   },
+   {
+    "name": "component_5_of_8",
+    "id": 4
+   },
+   {
+    "name": "component_6_of_8",
+    "id": 5
+   },
+   {
+    "name": "component_7_of_8",
+    "id": 6
+   },
+   {
+    "name": "component_8_of_8",
+    "id": 7
+   }
+  ]
+ },
+ {
+  "name": "kernel",
+  "id": 4,
+  "variables": [
+   {
+    "name": "flags",
+    "id": 0
+   },
+   {
+    "name": "arch_flags",
+    "id": 1
+   },
+   {
+    "name": "guard_page_mask",
+    "id": 2
+   },
+   {
+    "name": "console_speed",
+    "id": 3
+   },
+   {
+    "name": "max_timers",
+    "id": 4
+   },
+   {
+    "name": "max_processes",
+    "id": 5
+   },
+   {
+    "name": "max_names",
+    "id": 6
+   },
+   {
+    "name": "max_float_contexts",
+    "id": 7
+   }
+  ]
+ },
+ {
+  "name": "storage",
+  "id": 5,
+  "variables": [
+   {
+    "name": "max_sectors",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "tcpip",
+  "id": 6,
+  "variables": [
+   {
+    "name": "flags",
+    "id": 0
+   },
+   {
+    "name": "max_time_wait",
+    "id": 1
+   }
+  ]
+ },
+ {
+  "name": "object store",
+  "id": 7,
+  "variables": []
+ },
+ {
+  "name": "http",
+  "id": 8,
+  "variables": [
+   {
+    "name": "max_workers",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "idler",
+  "id": 9,
+  "variables": [
+   {
+    "name": "flags",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "mms",
+  "id": 10,
+  "variables": [
+   {
+    "name": "max_workers",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "starter",
+  "id": 11,
+  "variables": [
+   {
+    "name": "version",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "serviceability",
+  "id": 12,
+  "variables": [
+   {
+    "name": "flags",
+    "id": 0
+   },
+   {
+    "name": "sr_number",
+    "id": 1
+   }
+  ]
+ },
+ {
+  "name": "cache engine",
+  "id": 13,
+  "variables": [
+   {
+    "name": "free_space_goal",
+    "id": 1
+   },
+   {
+    "name": "minimum_free_space",
+    "id": 2
+   },
+   {
+    "name": "average_object_size",
+    "id": 3
+   },
+   {
+    "name": "we_max_modified_blocks",
+    "id": 4
+   },
+   {
+    "name": "we_interval",
+    "id": 5
+   },
+   {
+    "name": "min_disk_layout",
+    "id": 7
+   },
+   {
+    "name": "max_disk_layout",
+    "id": 6
+   }
+  ]
+ },
+ {
+  "name": "console agent",
+  "id": 14,
+  "variables": [
+   {
+    "name": "max_workers",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "pcap",
+  "id": 15,
+  "variables": [
+   {
+    "name": "max_packet_ram",
+    "id": 0
+   }
+  ]
+ },
+ {
+  "name": "virtual appliance",
+  "id": 18,
+  "variables": [
+   {
+    "name": "supports_boot_disk_layout",
+    "id": 0
+   }
+  ]
+ }
+]
